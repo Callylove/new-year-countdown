@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    background: url(img/project6.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    max-width: 900px;
+    text-align: center;
+    height: 100vh;
+    box-shadow: 0 0 3px;
+    border-radius: 15px;
+    margin-top: 30px;
+  
+}
+
+#title{
+    width: 100%;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 35px;
+    margin-top: 30px;
+}
+
+#countdown{
+    font-size: 2.5rem;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0,0,0,0.08) 0px 4px 12px;
+    margin-top: 50px;
+}
+#countdown div{
+    display: inline-block;
+    margin: 0 0.5rem;
+
+}
+#countdown div span{
+    color: #fff;
+    display: block;
+}
+#new-year{
+
+    
+ background-color:rgba(0,0,0,0);
+    color: rgba(223, 247, 223, 0.2);
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 60px;
+}
+@media screen and (max-width: 576px){
+    #title{
+        font-size: 1rem;
+        
+    }
+    #countdown{
+        margin-top: 5px;
+
+    }
+    #countdown span{
+        font-size: 12px;
+        
+    }
+    #new-year{
+        margin-top: 80px;
+    }
+}
+
